@@ -34,7 +34,7 @@ var/
 
 `vi /var/jb/Library/LaunchDaemons/re.frida.server.plist`としてファイルを編集します。
 
-```plist
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -67,7 +67,7 @@ var/
 
 という感じになっているので、
 
-```plist
+```xml
 <key>ProgramArguments</key>
 <array>
  <string>/var/jb/usr/sbin/frida-server</string>
